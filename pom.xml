@@ -62,7 +62,7 @@
   <version>2.0</version>
   <configuration>
     <url>http://65.0.75.179:8081/manager/text</url>
-	                 <server>CliffTomcatServer</server>
+	                 <server>tom</server>
                                 <path>/${project.build.finalName}</path>
     
   </configuration>
