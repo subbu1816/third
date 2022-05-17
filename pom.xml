@@ -227,12 +227,7 @@ http://localhost:9000
             <version>4.0</version>
             <scope>test</scope>
         </dependency>
-    				<dependency>
-   <groupId>org.codehaus.mojo</groupId>
-   <artifactId>sonar-maven-plugin</artifactId>
-   <version>3.9.0.2155</version>
-   <type>pom</type>
-</dependency>
+
     </dependencies>
 
 </project>
