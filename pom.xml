@@ -7,12 +7,18 @@
    <artifactId>project</artifactId>
    <version>1.0</version>
    <packaging>war</packaging>
-   <plugins>
-    <plugin>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.0.0</version>
-    </plugin>
-   </plugins>
+   <build>
+    <!-- To define the plugin version in your parent POM -->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version>
+        </plugin>
+        ...
+      </plugins>
+    </pluginManagement>
    <properties>
       <maven.compiler.source>11</maven.compiler.source>
       <maven.compiler.target>11</maven.compiler.target>
